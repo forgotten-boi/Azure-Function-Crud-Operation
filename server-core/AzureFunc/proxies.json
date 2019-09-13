@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "API": {
+      "matchCondition": {
+        "route": "/api/{*restOfPath}"
+      },
+      "backendUri": "https://%WEBSITE_HOSTNAME%/api/{restOfPath}"
+    },
+    "jquery": {
+      "matchCondition": {
+        "route": "/jquery/"
+      },
+      "backendUri": "https://%WEBSITE_HOSTNAME%/www/index.html"
+    },
+    "jquery2": {
+      "matchCondition": {
+        "route": "/jquery2/"
+      },
+      "backendUri": "https://%STORAGE_HOSTNAME%/www/index.html"
+    },
+    "path": {
+      "matchCondition": {
+        "route": "/{*path}"
+      },
+      "backendUri": "https://%STORAGE_HOSTNAME%/www/{path}"
+    }
+  }
+}
