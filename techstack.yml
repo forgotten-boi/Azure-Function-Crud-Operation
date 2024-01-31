@@ -1,0 +1,351 @@
+repo_name: forgotten-boi/Azure-Function-Crud-Operation
+report_id: 0d963fa576e6884d90927eba7d65febc
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T12:08:21+00:00'
+requested_by: forgotten-boi
+provider: github
+branch: master
+detected_tools_count: 25
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/server-core/AzureFunc/AzureFunc.csproj
+  detection_source: server-core/AzureFunc/AzureFunc.csproj
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '2.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/server-core/AzureFunc/AzureFunc.csproj
+  detection_source: server-core/AzureFunc/AzureFunc.csproj
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '2.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/server-core/AzureFunc/AzureFunc.csproj
+  detection_source: server-core/AzureFunc/AzureFunc.csproj
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/client-react/package-lock.json
+  detection_source: client-react/package.json
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/client-react/package-lock.json
+  detection_source: client-react/package.json
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/client-react/package-lock.json
+  detection_source: client-react/package.json
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: Azure Service Bus
+  description: 'Reliable cloud messaging as a service (MaaS) '
+  website_url: https://azure.microsoft.com/en-us/services/service-bus/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/3980/Azure-Service-Bus.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/server-core/AzureFunc/AzureFunc.csproj
+  detection_source: server-core/AzureFunc/AzureFunc.csproj
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/client-react/azure-pipelines.yml
+  detection_source: client-react/azure-pipelines.yml
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/server-core/AzureFunc/AzureFunc.csproj
+  detection_source: server-core/AzureFunc/AzureFunc.csproj
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/server-core/AzureFunc.sln
+  detection_source: server-core/AzureFunc.sln
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/client-react/package.json
+  detection_source: client-react/package.json
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/client-react/package-lock.json
+  detection_source: client-react/package.json
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: react-bootstrap
+  description: Bootstrap 3 components built with React
+  package_url: https://www.npmjs.com/react-bootstrap
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16383/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/client-react/package-lock.json
+  detection_source: client-react/package.json
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/client-react/package-lock.json
+  detection_source: client-react/package.json
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/client-react/package-lock.json
+  detection_source: client-react/package.json
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/client-react/package-lock.json
+  detection_source: client-react/package.json
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: standard
+  description: JavaScript Standard Style
+  package_url: https://www.npmjs.com/standard
+  version: 14.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15878/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/client-react/package-lock.json
+  detection_source: client-react/package.json
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: Microsoft.ApplicationInsights
+  description: Application Insights Base API
+  package_url: https://www.nuget.org/Microsoft.ApplicationInsights
+  version: 2.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13015/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/server-core/AzureFunc/AzureFunc.csproj
+  detection_source: server-core/AzureFunc/AzureFunc.csproj
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+- name: System.Data.SqlClient
+  description: Provides the data provider for SQL Server
+  package_url: https://www.nuget.org/System.Data.SqlClient
+  version: 4.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12863/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/server-core/AzureFunc/AzureFunc.csproj
+  detection_source: server-core/AzureFunc/AzureFunc.csproj
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
+  vulnerabilities:
+  - name: Microsoft.Data.SqlClient and System.Data.SqlClient vulnerable to SQL Data
+      Provider Security Feature Bypass
+    cve_id: CVE-2024-0056
+    cve_url: https://github.com/advisories/GHSA-98g6-xh36-x2p7
+    detected_date: Jan 17
+    severity: high
+    first_patched: 4.8.6
+  - name: ".NET Information Disclosure Vulnerability"
+    cve_id: CVE-2022-41064
+    cve_url: https://github.com/advisories/GHSA-8g2p-5pqh-5jmc
+    detected_date: Nov 9
+    severity: moderate
+    first_patched: 4.8.5
+- name: WindowsAzure.Storage
+  description: 'NOTE: As of version 9.4.0'
+  package_url: https://www.nuget.org/WindowsAzure.Storage
+  version: 9.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12883/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/forgotten-boi/Azure-Function-Crud-Operation/blob/master/server-core/AzureFunc/AzureFunc.csproj
+  detection_source: server-core/AzureFunc/AzureFunc.csproj
+  last_updated_by: Pitambar Jha
+  last_updated_on: 2019-09-13 07:12:39.000000000 Z
